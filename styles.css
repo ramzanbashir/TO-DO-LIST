@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.todo-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-items: center;
+}
+/* h1 {
+    text-align: center;
+} */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+li.completed {
+    text-decoration: line-through;
+}
+.btn {
+    margin-left: 5px;
+}
+.counters {
+    /* text-align: center; */
+    margin-top: 20px;
+    
+}
